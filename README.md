@@ -10,6 +10,7 @@
 ```shell
 kubectl port-forward deployment/mysql 3306:3306
 kubetl port-forward pods/redis 6379:6379
+sudo kubectl port-forward ReplicationController/my-nginx 443:443
 ```
 
 ## Nginx self-signed reverse proxy
